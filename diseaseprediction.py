@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 import csv,numpy as np,pandas as pd
 import os
 
+#data = pd.read_csv(r'C:\xampp_2\htdocs\Hospital_managment_system\dp\templates\Training.csv')
 data = pd.read_csv(os.path.join("templates", "Training.csv"))
 df = pd.DataFrame(data)
 cols = df.columns
